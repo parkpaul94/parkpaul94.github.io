@@ -1,2 +1,2 @@
-# Basic-Portfolio
-Basic Portfolio
+# parkpaul94.github.io
+parkpaul94.github.io
