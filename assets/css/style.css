@@ -94,6 +94,7 @@ p{
     flex: 1;
     border: 1px solid #dddddd; 
     background-color: white;
+    
 
   }
 
@@ -107,25 +108,20 @@ p{
 
 /* Main Body Style */
 
-img{
-    width: 50%;
-    height: 50%;
+
+
+#photo{
+    width: 55%;
+    height: 55%;
 }
 
-#social{
-    float: right;
+.social{
+    padding: 10px;
+    display: flex;
+    
 }
 
-#social ul li{
-    display: inline;
-
-}
-
-#social ul{
-    list-style-type: none;
-}
-
-#social a{
-    text-align: center;
-    padding: 30px;
-}
+.img1{
+    max-width: 75px;
+    max-height: 75px;
+    border-radius: 30%;
