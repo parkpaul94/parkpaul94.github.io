@@ -1,0 +1,131 @@
+*{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+        /* *{ sets the font for the whole code, 
+            I want to make it so that the header has different font from rest
+            
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
+    color: #777777;
+    margin: 0;
+}
+
+body{
+    background-image: url("../images/background.png");
+
+}
+
+/* menu base styles */
+
+nav{
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: #cccccc;
+    display: block;
+    padding: 30px;
+
+}
+
+nav a:hover{
+    background-color: #555;
+}
+
+/* flex styles */
+
+.contain{
+    border-bottom: 2px solid #cccccc;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav h1 {
+    background-color: #4aaaa5;
+    color: #fff;
+    display: flex;
+    padding: 25px;
+}
+
+.body1 h1{
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: .5em;
+}
+
+.body2 h2{
+    font-size: 1.35em;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: .5em;
+    
+}
+
+p{
+    margin-top: .5em
+}
+
+.body1 {
+    max-width: 650px;
+    padding: 1.5em;
+    margin: 20px;
+    flex: 3;
+    border: 1px solid #dddddd; 
+    background-color: white;
+    justify-content: center;
+
+  }
+
+.body2 {
+    max-width: 270px;
+    padding: 1.5em;
+    margin: 20px;
+    flex: 1;
+    border: 1px solid #dddddd; 
+    background-color: white;
+
+  }
+
+.bodycontain {
+    max-width: 960px;
+    display: flex;
+    padding: 1em;
+    margin: auto;
+    
+}
+
+/* Main Body Style */
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+#social{
+    float: right;
+}
+
+/* #social ul li{
+    display: inline; */
+
+}
+
+#social ul{
+    list-style-type: none;
+}
+
+#social a{
+    text-align: center;
+    padding: 30px;
+}
