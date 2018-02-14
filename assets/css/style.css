@@ -60,7 +60,9 @@ nav a{
     text-align: center;
     color: #cccccc;
     display: block;
-    padding: 30px;
+    padding: 35px;
+    font-size: 110%;
+    font-weight: 500;
 
 }
 
@@ -84,7 +86,7 @@ nav h1 {
     background-color: #4aaaa5;
     color: #fff;
     display: flex;
-    padding: 25px;
+    padding: 35px;
 }
 
 .body1 h1{
