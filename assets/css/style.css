@@ -68,6 +68,7 @@ nav a{
 
 nav a:hover{
     background-color: #555;
+
 }
 
 /* flex styles */
@@ -75,7 +76,6 @@ nav a:hover{
 .contain{
     border-bottom: 2px solid #cccccc;
 }
-
 
 nav ul{
     display: flex;
@@ -115,8 +115,7 @@ p{
     border: 1px solid #dddddd; 
     background-color: white;
 
-
-  }
+}
 
 .body2 {
     min-width: 270px;
@@ -129,8 +128,7 @@ p{
     background-color: white;
     margin-bottom: auto;
     
-
-  }
+}
 
 .bodycontain {
     min-width: 960px;
@@ -140,7 +138,6 @@ p{
 	margin-left: 16%;
 	margin-right: 16%;
 
-    
 }
 
 /* Main Body Style */
@@ -156,8 +153,6 @@ p{
     padding: 10px;
     display: flex;
 
-    
-    
 }
 
 .img1{
@@ -167,5 +162,5 @@ p{
     max-width: 80px;
     max-height: 80px;
     border-radius: 30%;
-    
-    
+
+}
