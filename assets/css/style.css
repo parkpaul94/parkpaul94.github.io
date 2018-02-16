@@ -237,21 +237,35 @@ input{
 }
 
 .imggrid{
-    filter:alpha(opacity(50));
-    -moz-opacity: .10;
     opacity: .10;
+    filter: blur(7px);
 }
 
 .imggrid:hover{
-    filter:alpha(opacity(50));
-    -moz-opacity: 1;
     opacity: 1;
+    transition: 1s ease-in-out;
+    filter: blur(0px);
 
 }
 
 .imggrid:not(:hover){
+    opacity: .10;
+    transition: 30s ease-in-out;
+}
+/* I tried to make it so when an image is clicked it would permanantly stay unblurred and not opaque. */
+/* .imggrid:active{
+    filter:alpha(opacity(50));
+    -moz-opacity: 1;
+    opacity: 1;
+
+} */
+
+/* .imggrid:not(:active){
     filter:alpha(opacity(50));
     -moz-opacity: .10;
     opacity: .10;
-    transition: 10s;
-}
+    transition: 25s;
+} */
+
+/* box-sizing: border-box;
+        makes the photo retain its size % but subtracts the padding from the % so it still retains its % */
