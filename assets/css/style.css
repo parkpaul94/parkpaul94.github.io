@@ -238,7 +238,9 @@ p{
 .footer{
     width: 100%;
     background-color: #666666;
-    padding: 40px 0px;
+    height: 35px;
+    padding: 20px 0px;
+    padding-top: 30px;
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -402,3 +404,13 @@ a.linkfont2:active{
 
 }
 
+/* Footer Pseudo Class */
+
+.footer:hover{
+    transition: 1s ease-in-out;
+    opacity: .1;
+}
+.footer:not(hover){
+    transition: 1s ease-in-out;
+    opacity: 1;
+}
