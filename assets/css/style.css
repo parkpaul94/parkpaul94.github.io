@@ -16,11 +16,11 @@
     max-height: 80px;
     min-width: 200px;
     color: white;
-    /* padding: 15px 32px; */
     justify-content: center;
     display: inline-block;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bold;
+    margin-left: 1%;
     
 }
 
@@ -86,20 +86,24 @@ nav ul{
 
 }
 
-nav a{
-    text-decoration: none;
-    text-align: center;
-    color: #cccccc;
-    display: block;
+nav .navbuttons{
+
     padding: 25px;
     font-size: 110%;
     font-weight: 500;
 
 }
 
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: #cccccc;
+    display: block;
+
+}
+
 nav a:hover{
     background-color: #555;
-
     transition: .5s ease;
 }
 
@@ -149,6 +153,7 @@ p{
     border: 1px solid #dddddd; 
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    /* position: relative; */
 
 }
 
