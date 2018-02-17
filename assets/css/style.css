@@ -21,6 +21,7 @@
     display: inline-block;
     font-size: 22px;
     font-weight: bold;
+    
 }
 
 .headfont{
@@ -47,6 +48,7 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 1.5;
     color: #777777;
+    text-align: justify;
 }
 
 .footerfont{
@@ -60,7 +62,7 @@
 
 body{
     background-image: url("../images/background.png");
-    height: 1050px;
+    height: 1000px;
 
 }
 
@@ -98,7 +100,9 @@ nav a{
 nav a:hover{
     background-color: #555;
 
+    transition: .5s ease;
 }
+
 
 /* flex styles */
 
@@ -175,13 +179,13 @@ p{
     background-color: white;
     margin-bottom: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-    
+    height: 105px;
     
 }
 
 .bodycontain {
-    min-width: 960px;
-    max-width: 960px;
+    min-width: 740px;
+    max-width: 740px;
     display: flex;
     padding: 1em;
 	margin-left: 16%;
@@ -201,10 +205,12 @@ p{
 
 
 
-#photo{
+.photo{
     width: 55%;
     height: 55%;
+
 }
+
 
 .social{
     padding: 10px;
@@ -227,15 +233,13 @@ p{
 .footer{
     width: 100%;
     background-color: #666666;
-    padding: 35px 0px;
+    padding: 40px 0px;
     text-align: center;
     position: fixed;
     bottom: 0;
     left: 0;
     border-top: 10px solid #4aaaa5;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-
-
 }
 
 /* Contact.html */
@@ -302,7 +306,7 @@ input{
 
 .imggrid:not(:hover){
     opacity: .10;
-    transition: 30s ease-in-out;
+    transition: 20s ease-in-out;
 }
 
 /* box-sizing: border-box;
@@ -319,16 +323,31 @@ a.linkfont {
     text-decoration: none;
 }
 
-a.linkfont:visited{
+a.linkfont2 {
+    font-family: 'Georgia', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+a.linkfont, a.linkfont2:visited{
     color: #F2F2F2;
 
 }
 
-a.linkfont:hover{
+a.linkfont, a.linkfont2:hover{
     color:  #4aaaa5;
     transition: .5s ease-in-out;
     transition-delay: .1s;
     
+}
+a.linkfont2:not(:hover) {
+    color: #F2F2F2;
+    transition: 1s ease-in-out;
+    transition-delay: .1s;
 }
 
 a.linkfont:not(:hover){
@@ -340,6 +359,12 @@ a.linkfont:not(:hover){
 a.linkfont:active{
     color: tomato;
     transition: 1s ease-in-out;
+    transition-delay: .1s;
+}
+
+a.linkfont2:active{
+    color: #D4AF37;
+    transition: .25s ease-in-out;
     transition-delay: .1s;
 }
 
