@@ -54,6 +54,7 @@
     line-height: 1.5;
     color: #cccccc;
     font-size: 15px;
+    
 }
 
 
@@ -73,6 +74,7 @@ nav{
     background: #ffffff;
     display: flex;
     justify-content: space-around;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 
 }
 
@@ -142,6 +144,7 @@ p{
     line-height: 1.5;
     border: 1px solid #dddddd; 
     background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 
 }
 
@@ -156,6 +159,7 @@ p{
     background-color: white;
     margin-bottom: auto;
     position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     
     
 }
@@ -170,6 +174,7 @@ p{
     line-height: 1.5;
     background-color: white;
     margin-bottom: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     
     
 }
@@ -222,12 +227,13 @@ p{
 .footer{
     width: 100%;
     background-color: #666666;
-    padding: 40px 0px;
+    padding: 35px 0px;
     text-align: center;
     position: fixed;
     bottom: 0;
     left: 0;
     border-top: 10px solid #4aaaa5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 
 
 }
