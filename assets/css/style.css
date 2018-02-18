@@ -324,11 +324,9 @@ input{
     width: 100%;
     /* z-index: 2; */
     position: relative;
-    opacity: .7;
-
-    
+    opacity: .7;    
 }
-
+ 
 .gallerytext{
     width: 270px;
     position: absolute;
