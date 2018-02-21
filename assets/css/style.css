@@ -67,13 +67,15 @@ body{
 }
 
 .pf{
-    height: 2085px;
+    height: 2050px;
+    width: 100%;
 }
 
 /* menu base styles */
 
 nav{
     background: #ffffff;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
@@ -184,17 +186,15 @@ p{
     background-color: white;
     margin-bottom: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-    /* height: 105px; */
+
     
 }
 
 .bodycontain {
-    min-width: 740px;
-    max-width: 740px;
+    max-width: 960px;
     display: flex;
     padding: 1em;
-	margin-left: 16%;
-    margin-right: 16%;
+    margin: auto;
     
 
 }
