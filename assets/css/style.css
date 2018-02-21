@@ -12,7 +12,7 @@
 }
 
 .headbutton {
-    background-color: #4aaaa5; /* Green */
+    background-color: #4aaaa5; 
     max-height: 80px;
     min-width: 200px;
     color: white;
@@ -126,7 +126,6 @@ nav h1 {
     color: #fff;
     display: flex;
     justify-content: center;
-    /* padding: 35px; */
 }
 
 .body1 h1{
@@ -155,7 +154,6 @@ p{
     border: 1px solid #dddddd; 
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-    /* position: relative; */
 
 }
 
