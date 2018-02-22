@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    /* margin: 0; */
 }
 
 .blink {
@@ -62,7 +62,7 @@
 
 body{
     background-image: url("../images/background.png");
-    height: 1000px;
+    /* height: auto; */
 
 }
 
@@ -145,7 +145,7 @@ p{
 }
 
 .body1 {
-    min-width: 650px;
+    /* min-width: 650px; */
     max-width: 650px;
     padding: 1.5em;
     margin: 20px;
@@ -158,7 +158,7 @@ p{
 }
 
 .body2 {
-    min-width: 270px;
+    /* min-width: 270px; */
     max-width: 270px;
     padding: 1.5em;
     margin: 20px;
