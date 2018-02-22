@@ -491,6 +491,37 @@ a.linkfont2:active{
     .body2 {
         min-width: 250px;
     }
+    a.linkfont2:active{
+        color:  #4aaaa5;
+        transition: .5s ease-in-out;
+        transition-delay: .1s;
+        
+    }
+    a.linkfont2:not(:active) {
+        color: #F2F2F2;
+        transition: 1s ease-in-out;
+        transition-delay: .1s;
+    }
+    
+    a.linkfont:not(:active){
+        color: #F2F2F2;
+        transition: 1s ease-in-out;
+        transition-delay: .1s;
+    }
+    .headbutton:active{
+        transform: rotate(-10deg);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+        transition: .2s ease-in-out;
+    }
+    .imggrid:active{
+        opacity: 1;
+        transition: 1s ease-in-out;
+        filter: blur(0px);
+    }
+    .imggrid:not(:active){
+        opacity: .10;
+        transition: 20s ease-in-out;
+    }
 }
 
 @media (max-width: 529px) {
