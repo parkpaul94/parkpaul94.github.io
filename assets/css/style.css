@@ -1,5 +1,6 @@
 *{
     /* margin: 0; */
+
 }
 
 .blink {
@@ -62,12 +63,14 @@
 
 body{
     background-image: url("../images/background.png");
+    
+    
     /* height: auto; */
 
 }
 
 .pf{
-    height: 2050px;
+    /* height: 2050px; */
     width: 100%;
 }
 
@@ -75,7 +78,7 @@ body{
 
 nav{
     background: #ffffff;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: space-around;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
@@ -131,6 +134,7 @@ nav h1 {
 .body1 h1{
     border-bottom: 2px solid #dddddd;
     padding-bottom: .5em;
+    
 }
 
 .body2 h2{
@@ -193,6 +197,9 @@ p{
     display: flex;
     padding: 1em;
     margin: auto;
+    overflow: auto;
+    padding-bottom: 110px;
+    
     
 
 }
@@ -439,7 +446,7 @@ a.linkfont2:active{
 }
 
 /* Footer Pseudo Class */
-
+/* 
 .footer:hover{
     transition: 1s ease-in-out;
     opacity: 0;
@@ -447,4 +454,4 @@ a.linkfont2:active{
 .footer:not(hover){
     transition: 1s ease-in-out;
     opacity: 1;
-}
+} */
