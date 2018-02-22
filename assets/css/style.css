@@ -522,6 +522,14 @@ a.linkfont2:active{
         opacity: .10;
         transition: 20s ease-in-out;
     }
+    .gallerytext:active{
+        opacity: .9;
+        transition: 1.5s ease-in-out;
+    }
+    .gallerytext:not(:active){
+        opacity: 0;
+        transition: 1.5s ease-in-out;
+    }
 }
 
 @media (max-width: 529px) {
