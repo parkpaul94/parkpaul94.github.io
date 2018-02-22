@@ -2,6 +2,9 @@
     /* margin: 0; */
 
 }
+html {
+    width: 100%;
+}
 
 .blink {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -49,7 +52,7 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 1.5;
     color: #777777;
-    text-align: justify;
+    text-align: left;
 }
 
 .footerfont{
@@ -63,6 +66,7 @@
 
 body{
     background-image: url("../images/background.png");
+
     
     
     /* height: auto; */
@@ -78,7 +82,7 @@ body{
 
 nav{
     background: #ffffff;
-    /* width: 100%; */
+    min-width: 100%;
     display: flex;
     justify-content: space-around;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
@@ -149,8 +153,8 @@ p{
 }
 
 .body1 {
-    /* min-width: 650px; */
-    max-width: 650px;
+    min-width: 500px;
+    width: 650px;
     padding: 1.5em;
     margin: 20px;
     flex: 3;
@@ -158,11 +162,12 @@ p{
     border: 1px solid #dddddd; 
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    flex-shrink: 0;
 
 }
 
 .body2 {
-    /* min-width: 270px; */
+    min-width: 270px;
     max-width: 270px;
     padding: 1.5em;
     margin: 20px;
@@ -177,8 +182,24 @@ p{
     
 }
 
+.bodygallery {
+    /* min-width: 270px; */
+    height: 180px;
+    max-width: 270px;
+    padding: 1.5em;
+    margin: 20px;
+    flex: 1;
+    border: 1px solid #dddddd; 
+    line-height: 1.5;
+    background-color: white;
+    margin-bottom: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+
+    
+}
+
 .body3 {
-    min-width: 270px;
+    /* min-width: 270px; */
     max-width: 270px;
     padding: 1.5em;
     margin: 20px;
@@ -195,7 +216,7 @@ p{
 .bodycontain {
     max-width: 960px;
     display: flex;
-    padding: 1em;
+    padding: 1%;
     margin: auto;
     overflow: auto;
     padding-bottom: 110px;
@@ -223,7 +244,7 @@ p{
 
 
 .social{
-    padding: 10px;
+    padding: 3%;
     display: flex;
 
 }
@@ -326,32 +347,30 @@ input{
 
 
 .gallery{
-    width: 100%;
+    width: 270px;
     /* z-index: 2; */
-    position: relative;
+    position: absolute;
     opacity: .7;    
 }
  
 .gallerytext{
     width: 270px;
     position: absolute;
-    top: 41.2%;
     height: 100px;
     padding-top: 81px;
-    /* padding-bottom: 33px; */
     background-color: white;
     opacity: 0;
 }
 
 .gallerytext:hover{
     opacity: .9;
-    transition: 1s ease-in-out;
+    transition: 1.5s ease-in-out;
 
 }
 
 .gallerytext:not(hover){
     opacity: 0;
-    transition: 1s ease-in-out;
+    transition: 1.5s ease-in-out;
 
 }
 
@@ -455,3 +474,41 @@ a.linkfont2:active{
     transition: 1s ease-in-out;
     opacity: 1;
 } */
+
+/* Media Queries */
+@media (max-width: 959px) {
+.bodycontain {
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+}
+
+@media (max-width: 579px) {
+    .body1 {
+        min-width: 250px;
+    }
+    .body2 {
+        min-width: 250px;
+    }
+}
+
+@media (max-width: 529px) {
+nav .navbuttons{
+
+    padding: 15px;
+    font-size: 90%;
+    }
+
+.headbutton {
+    max-height: 80px;
+    min-width: 90px;
+    color: white;
+    justify-content: center;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 1.1%;
+    
+    }
+}
