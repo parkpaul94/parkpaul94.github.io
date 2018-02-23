@@ -537,45 +537,6 @@ nav .navbuttons{
 
     padding: 15px;
     font-size: 90%;
-    a.linkfont2:active{
-        color:  #4aaaa5;
-        transition: .5s ease-in-out;
-        transition-delay: .1s;
-        
-    }
-    a.linkfont2:not(:active) {
-        color: #F2F2F2;
-        transition: 1s ease-in-out;
-        transition-delay: .1s;
-    }
-    
-    a.linkfont:not(:active){
-        color: #F2F2F2;
-        transition: 1s ease-in-out;
-        transition-delay: .1s;
-    }
-    .headbutton:active{
-        transform: rotate(-10deg);
-        box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-        transition: .2s ease-in-out;
-    }
-    .imggrid:active{
-        opacity: 1;
-        transition: 1s ease-in-out;
-        filter: blur(0px);
-    }
-    .imggrid:not(:active){
-        opacity: .10;
-        transition: 20s ease-in-out;
-    }
-    .gallerytext:active{
-        opacity: .9;
-        transition: 1.5s ease-in-out;
-    }
-    .gallerytext:not(:active){
-        opacity: 0;
-        transition: 1.5s ease-in-out;
-    }
     }
 
 .headbutton {
@@ -587,45 +548,6 @@ nav .navbuttons{
     font-size: 17px;
     font-weight: bold;
     margin-left: 1.1%;
-    a.linkfont2:active{
-        color:  #4aaaa5;
-        transition: .5s ease-in-out;
-        transition-delay: .1s;
-        
-    }
-    a.linkfont2:not(:active) {
-        color: #F2F2F2;
-        transition: 1s ease-in-out;
-        transition-delay: .1s;
-    }
-    
-    a.linkfont:not(:active){
-        color: #F2F2F2;
-        transition: 1s ease-in-out;
-        transition-delay: .1s;
-    }
-    .headbutton:active{
-        transform: rotate(-10deg);
-        box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-        transition: .2s ease-in-out;
-    }
-    .imggrid:active{
-        opacity: 1;
-        transition: 1s ease-in-out;
-        filter: blur(0px);
-    }
-    .imggrid:not(:active){
-        opacity: .10;
-        transition: 20s ease-in-out;
-    }
-    .gallerytext:active{
-        opacity: .9;
-        transition: 1.5s ease-in-out;
-    }
-    .gallerytext:not(:active){
-        opacity: 0;
-        transition: 1.5s ease-in-out;
-    }
     
     }
 }
