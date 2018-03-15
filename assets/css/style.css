@@ -12,11 +12,11 @@ html {
 }
 
 .blink:hover{
-    background-color: #4aaaa5;
+    background-color: #FFC48E"
 }
 
 .headbutton {
-    background-color: #4aaaa5; 
+    background-color: #FFC48E; 
     max-height: 80px;
     min-width: 200px;
     color: white;
@@ -59,22 +59,14 @@ html {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 1.5;
     color: #cccccc;
-    font-size: 15px;
-    
+    font-size: 15px; 
 }
-
 
 body{
     background-image: url("../images/background.png");
-
-    
-    
-    /* height: auto; */
-
 }
 
 .pf{
-    /* height: 2050px; */
     width: 100%;
 }
 
@@ -92,11 +84,9 @@ nav{
 nav ul{
     list-style-type: none;
     padding: 0;
-
 }
 
 nav .navbuttons{
-
     padding: 25px;
     font-size: 110%;
     font-weight: 500;
