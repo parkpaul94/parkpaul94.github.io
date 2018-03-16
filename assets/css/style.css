@@ -1,5 +1,5 @@
 *{
-    /* margin: 0; */
+    margin: 0;
 
 }
 html {
@@ -12,7 +12,7 @@ html {
 }
 
 .blink:hover{
-    background-color: #4aaaa5"
+    background-color: #4aaaa5;
 }
 
 .headbutton {
@@ -59,14 +59,22 @@ html {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 1.5;
     color: #cccccc;
-    font-size: 15px; 
+    font-size: 15px;
+    
 }
+
 
 body{
     background-image: url("../images/background.png");
+
+    
+    
+    /* height: auto; */
+
 }
 
 .pf{
+    /* height: 2050px; */
     width: 100%;
 }
 
@@ -84,9 +92,11 @@ nav{
 nav ul{
     list-style-type: none;
     padding: 0;
+
 }
 
 nav .navbuttons{
+
     padding: 25px;
     font-size: 110%;
     font-weight: 500;
@@ -246,6 +256,9 @@ p{
     max-width: 80px;
     max-height: 80px;
     border-radius: 30%;
+    transition: .5s ease-in-out; 
+    /* This is causing it to come out only in contact.html */
+    /* transition-delay: .1s; */
 
 }
 
@@ -267,10 +280,6 @@ p{
 
 /* Contact.html */
 
-form{
-    transition: all 4s ease-in-out;
-    
-}
 
 .form-control{
     width: 100%;
@@ -442,17 +451,17 @@ a.linkfont2:active{
 
 /* Social Media Effects */
 .img1:hover{
-    transition: .5s ease-in-out;
-    transition-delay: .1s;
     transform: rotateY(180deg);
-
+    transition: .5s ease-in-out;
+    transition-delay: .1s;
+    
 }
 
-.img1:not(hover){
+/* .img1:not(hover){
     transition: .5s ease-in-out;
     transition-delay: .1s;
 
-}
+} */
 
 /* Footer Pseudo Class */
 /* 
@@ -511,14 +520,6 @@ a.linkfont2:active{
     .imggrid:not(:active){
         opacity: .10;
         transition: 20s ease-in-out;
-    }
-    .gallerytext:active{
-        opacity: .9;
-        transition: 1.5s ease-in-out;
-    }
-    .gallerytext:not(:active){
-        opacity: 0;
-        transition: 1.5s ease-in-out;
     }
 }
 
